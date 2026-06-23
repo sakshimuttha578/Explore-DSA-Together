@@ -2,16 +2,22 @@
 
 ## What is a Palindrome?
 
-A palindrome is a word, phrase, or sequence that reads the same forwards and backwards.
+A palindrome is a word, phrase, number, or sequence that reads the same forwards and backwards.
 
-Examples:
+### Examples
+
 - madam
 - racecar
 - level
+- 121
 
-## Intuition
+---
+
+### Intuition
 
 If the reversed string is equal to the original string, it is a palindrome.
+
+---
 
 ## Python Solution
 
@@ -29,37 +35,37 @@ else:
     print("Not a Palindrome")
 ```
 
-## Practice Resources
+---
 
-### LeetCode
+### Time Complexity
 
-- [Valid Palindrome (Easy)](https://leetcode.com/problems/valid-palindrome/)
-- [Palindrome Number (Easy)](https://leetcode.com/problems/palindrome-number/)
-- [Valid Palindrome II (Medium)](https://leetcode.com/problems/valid-palindrome-ii/)
+**O(n)**
 
-### GeeksforGeeks
+### Space Complexity
 
-- [Palindrome String](https://www.geeksforgeeks.org/check-if-a-string-is-palindrome-or-not/)
-- [Palindrome Number](https://www.geeksforgeeks.org/check-if-a-number-is-palindrome/)
+**O(n)**
 
-### HackerRank
+---
 
-- Search: "Palindrome" in the Strings Practice section
-- Search: "Palindrome Index"
+### Common Mistakes
 
-### Additional Practice
+- Using the character as an index (`s[ch]`)
+- Reversing incorrectly (`rev = rev + ch`)
+- Ignoring case sensitivity
 
-- Create your own palindrome checker.
-- Check palindromes ignoring spaces.
-- Check palindromes ignoring special characters.
+---
 
-## Time Complexity
+### Practice Questions
 
-O(n)
+1. Check whether a string is a palindrome.
+2. Check whether a number is a palindrome.
+3. Check palindrome without creating a reversed string.
 
-## Space Complexity
+### Practice Problems
 
-O(n)
+- LeetCode: https://leetcode.com/problems/valid-palindrome/
+- LeetCode: https://leetcode.com/problems/palindrome-number/
+- GeeksforGeeks: https://www.geeksforgeeks.org/check-if-a-string-is-palindrome-or-not/
 
 ---
 
