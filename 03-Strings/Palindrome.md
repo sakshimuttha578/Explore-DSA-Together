@@ -27,7 +27,8 @@ s = "madam"
 rev = ""
 
 for ch in s:
-    rev = ch + rev
+    rev = ch + rev   
+    # rev = rev + ch is wrong, it will the return the string as it is
 
 if s == rev:
     print("Palindrome")
