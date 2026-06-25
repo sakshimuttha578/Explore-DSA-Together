@@ -58,6 +58,7 @@ for num in nums:
         freq[num] = 1
 
 for num in freq:
+     # If frequency becomes greater than 1 => duplicate exists
     if freq[num] > 1:
         print(True)
         break
